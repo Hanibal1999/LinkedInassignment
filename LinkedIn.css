@@ -1,0 +1,129 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-bottom: 4px solid rgb(11, 132, 252);
+}
+.logo img{
+    margin: 0px;
+    width: 120px;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0073b1;
+    font-weight: bold;
+    font-size: smaller;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border: 20px solid gainsboro;
+    background-color: white;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    align-items: center;
+    text-align: center;
+}
+.box2 hr{
+    margin-bottom: 20px;
+}
+.box2 p a{
+    text-decoration: none;
+}
+.introduction{
+    width: 60%;
+}
+.introduction h4{
+    color: #0073b1;
+}
+.introduction ul li{
+    list-style: none;
+    font-weight: lighter;
+    color: rgb(126, 122, 122);
+}
+.introduction ul img{
+    width:45px ;
+}
+.signup{
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 30%;
+    border: 1px solid gray;
+}
+.formheading{
+    background-color: #4c94bb;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.formheading h3{
+    color: white;
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+}
+.signup input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.signup button{
+background-color: #4eea7f;
+color: white;
+padding: 4px;
+border: none;
+cursor: pointer;
+width: 90px;
+height: 20px;
+border-radius: 3px;
+}
+.signup p{
+    text-align: center;
+    margin-top: 10px;
+}
+.signup a{
+    text-decoration: none;
+}
+footer{
+    text-align: start;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+.footer-links p{
+    color:rgb(96, 90, 90);
+}
+.footer-links a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0073b1;
+}
+.bottom-paragraph p{
+    font-size: small;
+    color: rgb(134, 128, 128);
+}
+.bottom-paragraph a{
+    color: #0073b1;
+    margin: 0 8px;
+}
